@@ -1,0 +1,230 @@
+.header {
+    background-color: white;
+    padding: 1px;
+}
+
+h5 {
+    color: #76584F;
+    padding: none;
+
+}
+
+body {
+    background-color: #76584F;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Baloo', Optima; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    color: white;
+    background-color: #76584F;
+    padding: 20px 0px 20px 0px;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 150px;
+    height: 150px;
+    margin-right: auto;
+    margin-left:30px;
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 40px;
+    font-family: 'Baloo', Optima;
+
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    color: #76584F;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero-cta {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 200px;
+}
+
+.hero-cta p {
+    font-family: 'Baloo', Optima;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #76584F;
+    margin: 0;
+    font-family: 'Baloo', Optima;
+    width: 650px;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 250px;
+    border: none;
+    background: #76584F;
+    padding: 0px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Baloo', Optima;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero-image img {
+    width: 400px;
+    height: 400px;
+}
+
+/* Content */
+
+.content {
+    align-items: center;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-info p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+}
+
+.content-info img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 100px;
+    margin: 5px 20px 0px 20px;
+}
+
+/* quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 0 200px;
+}
+
+.quote p {
+    font-size: 25px;
+    color: #76584F;
+    padding-top: 50px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Baloo', Optima;
+}
+
+.quote b {
+    padding-bottom: 50px;
+    padding-right: 10px;
+    font-family: 'Baloo', Optima;
+    color: #76584F;
+    text-align: right;
+}
+
+/* Sign up */
+
+.sign-up {
+    background-color: #76584F;
+    margin: 50px 200px;
+    padding: none;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: thick;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p {
+    color: white;
+    opacity: 0.8;
+    margin: 5px 30px 30px 50px;
+    font-size: 15px;
+}
+
+h3 {
+    color: white;
+    font-family: 'Baloo', Optima;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signs-button button {
+    color: #76584F;
+    font-family: 'Baloo', Optima;
+    border-color: #76584F;
+    border-radius: 8px;
+    background-color: white;
+    padding: 5px 25px;
+    font-size: 20px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: white;
+    color:#76584F;
+    font-family: 'Baloo', 'Optima'
+}
+
+p {
+    font-size: 10px;
+}
